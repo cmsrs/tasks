@@ -5,8 +5,7 @@
 * download
  
 ```bash
-git clone https://github.com/cmsrs/tasks.git
-cd tasks
+git clone https://github.com/cmsrs/tasks.git &&  cd tasks
 ```
 
 * create user and database
@@ -37,7 +36,7 @@ php artisan key:generate && php artisan jwt:secret
 
 admin - (email: admin@tasks.pl, pass: tasks123) 
 
-client - (email: client@tasks.pl, pass: client123)
+client - (email: client@tasks.pl, pass: tasks456)
 
 ```bash
 php artisan migrate  && php artisan db:seed --class=UserSeeder
