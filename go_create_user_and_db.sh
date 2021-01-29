@@ -1,0 +1,5 @@
+sudo mysql --default-character-set=utf8 -e  "DROP USER IF EXISTS 'rs2'@'localhost';"
+sudo mysql --default-character-set=utf8 -e  "DROP DATABASE IF EXISTS tasks;"
+sudo mysql --default-character-set=utf8 -e  "CREATE USER 'rs2'@'localhost' IDENTIFIED BY 'secret102*';"
+sudo mysql --default-character-set=utf8 -e  "GRANT ALL PRIVILEGES ON *.* TO 'rs2'@'localhost' WITH GRANT OPTION;"
+sudo mysql --default-character-set=utf8 -e  "CREATE DATABASE tasks CHARACTER SET utf8 COLLATE utf8_general_ci;"
