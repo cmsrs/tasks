@@ -22,6 +22,15 @@ class AuthenticationTest extends TestCase
     {
         $user = User::factory()->create();
 
+        $user = new User([
+            'email'    => 'test@email.com',
+            'name'     => 'test testowy',
+            'role' => 'client'
+        ]);
+        $user->password = 'password';
+        $user->save();
+       
+
         $response = $this->post('/login', [
             'email' => $user->email,
             'password' => 'password',
@@ -33,7 +42,13 @@ class AuthenticationTest extends TestCase
 
     public function test_users_can_not_authenticate_with_invalid_password()
     {
-        $user = User::factory()->create();
+        $user = new User([
+            'email'    => 'test@email.com',
+            'name'     => 'test testowy',
+            'role' => 'client'
+        ]);
+        $user->password = 'password';
+        $user->save();
 
         $this->post('/login', [
             'email' => $user->email,
