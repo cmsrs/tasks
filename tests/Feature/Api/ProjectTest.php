@@ -68,6 +68,7 @@ class ProjectTest extends Base
     {
         //add
         $projectId =$this->addProject();        
+        $this->addTask($projectId);
 
         //get
         $response2 = $this->get('api/projects?token='.$this->token);
@@ -76,6 +77,12 @@ class ProjectTest extends Base
 
         $this->assertEquals(1, count($res2->data));
         $this->assertEquals(self::STR_PROJ_TITLE_ONE, $res2->data[0]->title);
+
+
+        $this->assertEquals(1, count($res2->data[0]->tasks));
+        $this->assertEquals(Base::STR_TASK_NAME_ONE,  $res2->data[0]->tasks[0]->name );        
+        $this->assertEquals(Base::POINTS,  $res2->data[0]->tasks[0]->points );                
+        $this->assertEquals($projectId,  $res2->data[0]->tasks[0]->project_id );
     }
 
 }
