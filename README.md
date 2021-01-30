@@ -1,5 +1,21 @@
 # Projects and tasks
 
+
+# QUICK INSTALLATION
+
+* download
+ 
+```bash
+git clone https://github.com/cmsrs/tasks.git && cd tasks
+```
+
+* run script 
+
+```bash
+./go_install.sh
+```
+
+
 # INSALLATION
 
 * download
