@@ -2,6 +2,7 @@
 namespace Tests\Feature\Api;
 
 use App\Models\Project;
+use App\Models\Task;
 use App\Models\User;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
@@ -53,6 +54,13 @@ class ProjectTest extends Base
     public function it_will_delete_project()
     {
         $projectId =$this->addProject();        
+        $this->addTask($projectId);
+
+        $arrProject = Project::All()->toArray();
+        $this->assertEquals( 1, count($arrProject)  );        
+
+        $arrTask = Task::All()->toArray();
+        $this->assertEquals( 1, count($arrTask)  );        
 
         //delete
         $response2 = $this->delete('api/projects/'.$projectId.'?token='.$this->token);
@@ -61,6 +69,10 @@ class ProjectTest extends Base
 
         $arrProject2 = Project::All()->toArray();
         $this->assertEquals( 0, count($arrProject2)  );        
+
+        $arrTask = Task::All()->toArray();
+        $this->assertEquals( 0, count($arrTask)  );        
+        
     }
 
     /** @test */
