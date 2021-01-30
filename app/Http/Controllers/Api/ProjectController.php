@@ -80,7 +80,7 @@ class ProjectController extends Controller
 
         $res = $project->delete();
         if (empty($res)) {
-            return response()->json(['success'=> false, 'error'=> 'Delete problem'], 200);
+            return response()->json(['success'=> false, 'error'=> 'Delete project problem'], 200);
         }
 
         return response()->json(['success'=> true], 200);

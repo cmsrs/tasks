@@ -4,6 +4,7 @@ namespace Tests\Feature\Api;
 use Tests\TestCase;
 use App\Models\User;
 use App\Models\Project;
+use App\Models\Task;
 
 class Base extends TestCase
 {
@@ -11,6 +12,11 @@ class Base extends TestCase
     const PASSWORD1 = 'tasks1'; 
     const STR_PROJ_TITLE_ONE = 'HR - Manage clients';
     const STR_PROJ_TITLE_TWO = 'Sports - Basketball teams'; 
+
+    const STR_TASK_NAME_ONE = 'prepare Server';
+    const STR_TASK_NAME_TWO = 'create Mock';    
+
+    const POINTS = 98;    
 
 
     public function createUser()
@@ -54,5 +60,26 @@ class Base extends TestCase
         return $projectId;
     }
 
+    public function addTask($projectId)
+    {
+        $testData = [
+            'name' => self::STR_TASK_NAME_ONE,
+            'points' => 98,
+            'project_id' => $projectId
+        ];
+
+        $response = $this->post('api/tasks?token='.$this->token, $testData);
+        $res = $response->getData();
+        $this->assertTrue($res->success);        
+
+        $arrTask = Task::All()->toArray();
+        $this->assertEquals( 1, count($arrTask)  );        
+        $this->assertEquals( self::STR_TASK_NAME_ONE, $arrTask[0]['name']);
+        $this->assertEquals( self::POINTS, $arrTask[0]['points']);        
+        $this->assertEquals( $projectId, $arrTask[0]['project_id']);                
+        $this->assertNotEmpty( $arrTask[0]['id']);        
+        $taskId = $arrTask[0]['id'];
+        return $taskId;
+    }
 
 }
