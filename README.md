@@ -92,3 +92,11 @@ DB_DATABASE=tasks_testing
 ./vendor/bin/phpunit
 ```
  
+===
+
+React source code:
+
+https://github.com/cmsrs/cmsrs3-react
+
+
+
