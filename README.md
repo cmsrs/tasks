@@ -92,12 +92,12 @@ DB_DATABASE=tasks_testing
 ./vendor/bin/phpunit
 ```
  
-===
-
-React source code:
+# React source code:
 
 https://github.com/cmsrs/cmsrs3-react
 
-
+# Print screen
 
 <img src="https://github.com/cmsrs/tasks/blob/main/rs/admin.png" />
+<img src="https://github.com/cmsrs/tasks/blob/main/rs/client.png" />
+<img src="https://github.com/cmsrs/tasks/blob/main/rs/tests.png" />
