@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/main.css"],"names":[],"mappings":"AAAA,SACE,qBACF,CACA,SACE,WACF,CACA,gBACE,cACF","file":"main.5eae6642.chunk.css","sourcesContent":[".rs-test{ /* not use */\n  background-color: black;\n}\n.wrapMsg{\n  height: 50px;\n}\n.cursor-pointer{\n  cursor: pointer;\n}\n"]}

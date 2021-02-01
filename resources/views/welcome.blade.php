@@ -54,7 +54,7 @@
 
 
                             <li>
-                            <a href="/admin" class="ml-1 underline" style="font-size: 16pt">
+                            <a href="/admin/" class="ml-1 underline" style="font-size: 16pt">
                                 Admin area
                             </a>
                             </li>                            
