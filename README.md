@@ -104,4 +104,4 @@ https://github.com/cmsrs/cmsrs3-react
 
 # schema db
 
-<img src="https://github.com/cmsrs/tasks/blob/main/rs/tests.svg" />
+<img src="https://github.com/cmsrs/tasks/blob/main/rs/tasks.svg" />
