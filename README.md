@@ -101,3 +101,7 @@ https://github.com/cmsrs/cmsrs3-react
 <img src="https://github.com/cmsrs/tasks/blob/main/rs/admin.png" />
 <img src="https://github.com/cmsrs/tasks/blob/main/rs/client.png" />
 <img src="https://github.com/cmsrs/tasks/blob/main/rs/tests.png" />
+
+# schema db
+
+<img src="https://github.com/cmsrs/tasks/blob/main/rs/tests.svg" />

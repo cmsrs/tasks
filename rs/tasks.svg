@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="30 152 676 694" width="646px" height="542px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="441" y1="257" x2="431" y2="257" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="194" y1="198" x2="184" y2="198" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="431" y1="257" x2="194" y2="198" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="433.5" y1="257" x2="437.03553390593" y2="260.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="433.5" y1="257" x2="437.03553390593" y2="253.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="189" y1="198" x2="192.53553390593" y2="201.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="189" y1="198" x2="192.53553390593" y2="194.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <rect width="87" height="20" x="316" y="481" style="fill:#007;stroke:black;"/>
+   <text width="87" height="20" x="321" y="495" style="fill:#fff;" font-family="Arial" font-size="16px"> failed_jobs</text>
+   <rect width="87" height="20" x="316" y="501" style="fill:#aea;stroke:black;"/>
+   <text width="87" height="20" x="321" y="515" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="87" height="20" x="316" y="521" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="535" style="fill:black;" font-family="Arial" font-size="16px">uuid</text>
+   <rect width="87" height="20" x="316" y="541" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="555" style="fill:black;" font-family="Arial" font-size="16px">connection</text>
+   <rect width="87" height="20" x="316" y="561" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="575" style="fill:black;" font-family="Arial" font-size="16px">queue</text>
+   <rect width="87" height="20" x="316" y="581" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="595" style="fill:black;" font-family="Arial" font-size="16px">payload</text>
+   <rect width="87" height="20" x="316" y="601" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="615" style="fill:black;" font-family="Arial" font-size="16px">exception</text>
+   <rect width="87" height="20" x="316" y="621" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="321" y="635" style="fill:black;" font-family="Arial" font-size="16px">failed_at</text>
+   <rect width="83" height="20" x="59" y="476" style="fill:#007;stroke:black;"/>
+   <text width="83" height="20" x="64" y="490" style="fill:#fff;" font-family="Arial" font-size="16px"> migrations</text>
+   <rect width="83" height="20" x="59" y="496" style="fill:#aea;stroke:black;"/>
+   <text width="83" height="20" x="64" y="510" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="83" height="20" x="59" y="516" style="fill:none;stroke:black;"/>
+   <text width="83" height="20" x="64" y="530" style="fill:black;" font-family="Arial" font-size="16px">migration</text>
+   <rect width="83" height="20" x="59" y="536" style="fill:none;stroke:black;"/>
+   <text width="83" height="20" x="64" y="550" style="fill:black;" font-family="Arial" font-size="16px">batch</text>
+   <rect width="123" height="20" x="45" y="588" style="fill:#007;stroke:black;"/>
+   <text width="123" height="20" x="50" y="602" style="fill:#fff;" font-family="Arial" font-size="16px"> password_resets</text>
+   <rect width="123" height="20" x="45" y="608" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="50" y="622" style="fill:black;" font-family="Arial" font-size="16px">email</text>
+   <rect width="123" height="20" x="45" y="628" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="50" y="642" style="fill:black;" font-family="Arial" font-size="16px">token</text>
+   <rect width="123" height="20" x="45" y="648" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="50" y="662" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="86" height="20" x="98" y="168" style="fill:#007;stroke:black;"/>
+   <text width="86" height="20" x="103" y="182" style="fill:#fff;" font-family="Arial" font-size="16px"> projects</text>
+   <rect width="86" height="20" x="98" y="188" style="fill:#aea;stroke:black;"/>
+   <text width="86" height="20" x="103" y="202" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="86" height="20" x="98" y="208" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="103" y="222" style="fill:black;" font-family="Arial" font-size="16px">title</text>
+   <rect width="86" height="20" x="98" y="228" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="103" y="242" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="86" height="20" x="98" y="248" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="103" y="262" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
+   <rect width="86" height="20" x="441" y="167" style="fill:#007;stroke:black;"/>
+   <text width="86" height="20" x="446" y="181" style="fill:#fff;" font-family="Arial" font-size="16px"> tasks</text>
+   <rect width="86" height="20" x="441" y="187" style="fill:#aea;stroke:black;"/>
+   <text width="86" height="20" x="446" y="201" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="86" height="20" x="441" y="207" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="446" y="221" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="86" height="20" x="441" y="227" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="446" y="241" style="fill:black;" font-family="Arial" font-size="16px">points</text>
+   <rect width="86" height="20" x="441" y="247" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="446" y="261" style="fill:black;" font-family="Arial" font-size="16px">project_id</text>
+   <rect width="86" height="20" x="441" y="267" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="446" y="281" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="86" height="20" x="441" y="287" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="446" y="301" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
+   <rect width="127" height="20" x="534" y="479" style="fill:#007;stroke:black;"/>
+   <text width="127" height="20" x="539" y="493" style="fill:#fff;" font-family="Arial" font-size="16px"> users</text>
+   <rect width="127" height="20" x="534" y="499" style="fill:#aea;stroke:black;"/>
+   <text width="127" height="20" x="539" y="513" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="127" height="20" x="534" y="519" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="533" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="127" height="20" x="534" y="539" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="553" style="fill:black;" font-family="Arial" font-size="16px">email</text>
+   <rect width="127" height="20" x="534" y="559" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="573" style="fill:black;" font-family="Arial" font-size="16px">email_verified_at</text>
+   <rect width="127" height="20" x="534" y="579" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="593" style="fill:black;" font-family="Arial" font-size="16px">password</text>
+   <rect width="127" height="20" x="534" y="599" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="613" style="fill:black;" font-family="Arial" font-size="16px">role</text>
+   <rect width="127" height="20" x="534" y="619" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="633" style="fill:black;" font-family="Arial" font-size="16px">remember_token</text>
+   <rect width="127" height="20" x="534" y="639" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="653" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="127" height="20" x="534" y="659" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="539" y="673" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
+</svg>
