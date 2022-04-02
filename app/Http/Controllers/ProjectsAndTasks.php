@@ -37,6 +37,9 @@ class ProjectsAndTasks extends Controller {
 		return redirect()->route('show');
 	}		
 
+	/**
+	 * wyswietlenie wszystkich projektow i nalezacych do nich 'taskow'
+	 */
 	public function show()
 	{
 		$show = [];
