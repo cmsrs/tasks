@@ -9,6 +9,7 @@ use App\Models\Task;
 class ProjectsAndTasks extends Controller {
 
 	/**
+	 * zapis do bazy danych projekow i nalezacych do nich 'taskow'
 	 * przykladowe dane z posta:
 	 * [
 	 *	[
