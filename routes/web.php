@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProjectsAndTasks;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,5 +24,10 @@ Route::get('/dashboard', [DashboardController::class, 'getIndex'])->middleware([
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');
+
+
+
+Route::post('/projetsandtasks', [ ProjectsAndTasks::class, 'add'] );
+Route::get( '/projetsandtasks', [ ProjectsAndTasks::class, 'show'] )->name('show');
 
 require __DIR__.'/auth.php';
